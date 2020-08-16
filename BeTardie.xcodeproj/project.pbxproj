@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9BB74CC24E9289D00F335F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB74CB24E9289D00F335F0 /* AppDelegate.swift */; };
+		C9BB74CE24E9289D00F335F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB74CD24E9289D00F335F0 /* SceneDelegate.swift */; };
+		C9BB74D124E9289D00F335F0 /* BeTardie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9BB74CF24E9289D00F335F0 /* BeTardie.xcdatamodeld */; };
+		C9BB74D324E9289D00F335F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB74D224E9289D00F335F0 /* ContentView.swift */; };
+		C9BB74D524E9289E00F335F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BB74D424E9289E00F335F0 /* Assets.xcassets */; };
+		C9BB74D824E9289E00F335F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BB74D724E9289E00F335F0 /* Preview Assets.xcassets */; };
+		C9BB74DB24E9289E00F335F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BB74D924E9289E00F335F0 /* LaunchScreen.storyboard */; };
+		C9BB74E624E9289F00F335F0 /* BeTardieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB74E524E9289F00F335F0 /* BeTardieTests.swift */; };
+		C9BB74F124E9289F00F335F0 /* BeTardieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB74F024E9289F00F335F0 /* BeTardieUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9BB74E224E9289F00F335F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9BB74C024E9289D00F335F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BB74C724E9289D00F335F0;
+			remoteInfo = BeTardie;
+		};
+		C9BB74ED24E9289F00F335F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9BB74C024E9289D00F335F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BB74C724E9289D00F335F0;
+			remoteInfo = BeTardie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9BB74C824E9289D00F335F0 /* BeTardie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeTardie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BB74CB24E9289D00F335F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9BB74CD24E9289D00F335F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9BB74D024E9289D00F335F0 /* BeTardie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeTardie.xcdatamodel; sourceTree = "<group>"; };
+		C9BB74D224E9289D00F335F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9BB74D424E9289E00F335F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9BB74D724E9289E00F335F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9BB74DA24E9289E00F335F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9BB74DC24E9289E00F335F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BB74E124E9289F00F335F0 /* BeTardieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeTardieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BB74E524E9289F00F335F0 /* BeTardieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeTardieTests.swift; sourceTree = "<group>"; };
+		C9BB74E724E9289F00F335F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BB74EC24E9289F00F335F0 /* BeTardieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeTardieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BB74F024E9289F00F335F0 /* BeTardieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeTardieUITests.swift; sourceTree = "<group>"; };
+		C9BB74F224E9289F00F335F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BB74C524E9289D00F335F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BB74DE24E9289F00F335F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BB74E924E9289F00F335F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9BB74BF24E9289D00F335F0 = {
+			isa = PBXGroup;
+			children = (
+				C9BB74CA24E9289D00F335F0 /* BeTardie */,
+				C9BB74E424E9289F00F335F0 /* BeTardieTests */,
+				C9BB74EF24E9289F00F335F0 /* BeTardieUITests */,
+				C9BB74C924E9289D00F335F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BB74C924E9289D00F335F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB74C824E9289D00F335F0 /* BeTardie.app */,
+				C9BB74E124E9289F00F335F0 /* BeTardieTests.xctest */,
+				C9BB74EC24E9289F00F335F0 /* BeTardieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9BB74CA24E9289D00F335F0 /* BeTardie */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB74CB24E9289D00F335F0 /* AppDelegate.swift */,
+				C9BB74CD24E9289D00F335F0 /* SceneDelegate.swift */,
+				C9BB74D224E9289D00F335F0 /* ContentView.swift */,
+				C9BB74D424E9289E00F335F0 /* Assets.xcassets */,
+				C9BB74D924E9289E00F335F0 /* LaunchScreen.storyboard */,
+				C9BB74DC24E9289E00F335F0 /* Info.plist */,
+				C9BB74CF24E9289D00F335F0 /* BeTardie.xcdatamodeld */,
+				C9BB74D624E9289E00F335F0 /* Preview Content */,
+			);
+			path = BeTardie;
+			sourceTree = "<group>";
+		};
+		C9BB74D624E9289E00F335F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB74D724E9289E00F335F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9BB74E424E9289F00F335F0 /* BeTardieTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB74E524E9289F00F335F0 /* BeTardieTests.swift */,
+				C9BB74E724E9289F00F335F0 /* Info.plist */,
+			);
+			path = BeTardieTests;
+			sourceTree = "<group>";
+		};
+		C9BB74EF24E9289F00F335F0 /* BeTardieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB74F024E9289F00F335F0 /* BeTardieUITests.swift */,
+				C9BB74F224E9289F00F335F0 /* Info.plist */,
+			);
+			path = BeTardieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BB74C724E9289D00F335F0 /* BeTardie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BB74F524E9289F00F335F0 /* Build configuration list for PBXNativeTarget "BeTardie" */;
+			buildPhases = (
+				C9BB74C424E9289D00F335F0 /* Sources */,
+				C9BB74C524E9289D00F335F0 /* Frameworks */,
+				C9BB74C624E9289D00F335F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeTardie;
+			productName = BeTardie;
+			productReference = C9BB74C824E9289D00F335F0 /* BeTardie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9BB74E024E9289F00F335F0 /* BeTardieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BB74F824E9289F00F335F0 /* Build configuration list for PBXNativeTarget "BeTardieTests" */;
+			buildPhases = (
+				C9BB74DD24E9289F00F335F0 /* Sources */,
+				C9BB74DE24E9289F00F335F0 /* Frameworks */,
+				C9BB74DF24E9289F00F335F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9BB74E324E9289F00F335F0 /* PBXTargetDependency */,
+			);
+			name = BeTardieTests;
+			productName = BeTardieTests;
+			productReference = C9BB74E124E9289F00F335F0 /* BeTardieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9BB74EB24E9289F00F335F0 /* BeTardieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BB74FB24E9289F00F335F0 /* Build configuration list for PBXNativeTarget "BeTardieUITests" */;
+			buildPhases = (
+				C9BB74E824E9289F00F335F0 /* Sources */,
+				C9BB74E924E9289F00F335F0 /* Frameworks */,
+				C9BB74EA24E9289F00F335F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9BB74EE24E9289F00F335F0 /* PBXTargetDependency */,
+			);
+			name = BeTardieUITests;
+			productName = BeTardieUITests;
+			productReference = C9BB74EC24E9289F00F335F0 /* BeTardieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BB74C024E9289D00F335F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = narb;
+				TargetAttributes = {
+					C9BB74C724E9289D00F335F0 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					C9BB74E024E9289F00F335F0 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = C9BB74C724E9289D00F335F0;
+					};
+					C9BB74EB24E9289F00F335F0 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = C9BB74C724E9289D00F335F0;
+					};
+				};
+			};
+			buildConfigurationList = C9BB74C324E9289D00F335F0 /* Build configuration list for PBXProject "BeTardie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9BB74BF24E9289D00F335F0;
+			productRefGroup = C9BB74C924E9289D00F335F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BB74C724E9289D00F335F0 /* BeTardie */,
+				C9BB74E024E9289F00F335F0 /* BeTardieTests */,
+				C9BB74EB24E9289F00F335F0 /* BeTardieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9BB74C624E9289D00F335F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BB74DB24E9289E00F335F0 /* LaunchScreen.storyboard in Resources */,
+				C9BB74D824E9289E00F335F0 /* Preview Assets.xcassets in Resources */,
+				C9BB74D524E9289E00F335F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BB74DF24E9289F00F335F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BB74EA24E9289F00F335F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BB74C424E9289D00F335F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BB74CC24E9289D00F335F0 /* AppDelegate.swift in Sources */,
+				C9BB74D124E9289D00F335F0 /* BeTardie.xcdatamodeld in Sources */,
+				C9BB74D324E9289D00F335F0 /* ContentView.swift in Sources */,
+				C9BB74CE24E9289D00F335F0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BB74DD24E9289F00F335F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BB74E624E9289F00F335F0 /* BeTardieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BB74E824E9289F00F335F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BB74F124E9289F00F335F0 /* BeTardieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9BB74E324E9289F00F335F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9BB74C724E9289D00F335F0 /* BeTardie */;
+			targetProxy = C9BB74E224E9289F00F335F0 /* PBXContainerItemProxy */;
+		};
+		C9BB74EE24E9289F00F335F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9BB74C724E9289D00F335F0 /* BeTardie */;
+			targetProxy = C9BB74ED24E9289F00F335F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9BB74D924E9289E00F335F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BB74DA24E9289E00F335F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9BB74F324E9289F00F335F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9BB74F424E9289F00F335F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9BB74F624E9289F00F335F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BeTardie/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BeTardie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.narb.BeTardie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9BB74F724E9289F00F335F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BeTardie/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BeTardie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.narb.BeTardie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9BB74F924E9289F00F335F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeTardieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.narb.BeTardieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeTardie.app/BeTardie";
+			};
+			name = Debug;
+		};
+		C9BB74FA24E9289F00F335F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeTardieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.narb.BeTardieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeTardie.app/BeTardie";
+			};
+			name = Release;
+		};
+		C9BB74FC24E9289F00F335F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeTardieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.narb.BeTardieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeTardie;
+			};
+			name = Debug;
+		};
+		C9BB74FD24E9289F00F335F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeTardieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.narb.BeTardieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeTardie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BB74C324E9289D00F335F0 /* Build configuration list for PBXProject "BeTardie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BB74F324E9289F00F335F0 /* Debug */,
+				C9BB74F424E9289F00F335F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BB74F524E9289F00F335F0 /* Build configuration list for PBXNativeTarget "BeTardie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BB74F624E9289F00F335F0 /* Debug */,
+				C9BB74F724E9289F00F335F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BB74F824E9289F00F335F0 /* Build configuration list for PBXNativeTarget "BeTardieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BB74F924E9289F00F335F0 /* Debug */,
+				C9BB74FA24E9289F00F335F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BB74FB24E9289F00F335F0 /* Build configuration list for PBXNativeTarget "BeTardieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BB74FC24E9289F00F335F0 /* Debug */,
+				C9BB74FD24E9289F00F335F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9BB74CF24E9289D00F335F0 /* BeTardie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9BB74D024E9289D00F335F0 /* BeTardie.xcdatamodel */,
+			);
+			currentVersion = C9BB74D024E9289D00F335F0 /* BeTardie.xcdatamodel */;
+			path = BeTardie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C9BB74C024E9289D00F335F0 /* Project object */;
+}
